@@ -605,6 +605,10 @@ video {
   margin-top: 2rem;
 }
 
+.table {
+  display: table;
+}
+
 .h-auto {
   height: auto;
 }
@@ -615,6 +619,14 @@ video {
 
 .list-inside {
   list-style-position: inside;
+}
+
+.list-outside {
+  list-style-position: outside;
+}
+
+.list-decimal {
+  list-style-type: decimal;
 }
 
 .list-disc {
@@ -629,13 +641,12 @@ video {
   border-radius: 0.5rem;
 }
 
-.border-b-2 {
-  border-bottom-width: 2px;
+.border-b {
+  border-bottom-width: 1px;
 }
 
-.border-b-gray-700 {
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(55 65 81 / var(--tw-border-opacity));
+.border-b-2 {
+  border-bottom-width: 2px;
 }
 
 .border-b-gray-200 {
@@ -658,6 +669,10 @@ video {
      object-fit: contain;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -670,8 +685,20 @@ video {
   padding-bottom: 0px;
 }
 
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-2xl {
@@ -730,7 +757,19 @@ video {
   color: hsl(332, 51%, 32%);
 }
 
-.recipe-ingredients__title {
+.recipe-instructions__title,
+.recipe-ingredients__title,
+.recipe-nutrition__title {
+  color: hsl(14, 45%, 36%);
+}
+
+.recipe-instructions__list li::marker {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.recipe-nutrition__row .recipe-nutrition__cell:nth-child(2n) {
   color: hsl(14, 45%, 36%);
 }
 

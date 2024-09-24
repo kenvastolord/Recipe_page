@@ -38,7 +38,7 @@
             your choice of cheese, vegetables, or meats.
           </p>
           <div class="recipe-praparation p-6">
-            <h2 class="recipe-prepatation__title text-xl font-bold mb-2">
+            <h2 class="recipe-preparation__title text-xl font-bold mb-2">
               Preparation Time
             </h2>
             <ul class="recipe-preparation__list list-disc list-inside">
@@ -59,7 +59,8 @@
             </ul>
           </div>
         </div>
-        <div class="recipe-ingredients p-6 border-b-2">
+
+        <div class="recipe-ingredients p-6 pb-0">
           <h2
             class="recipe-ingredients__title text-2xl font-bold mb-2 young-font"
           >
@@ -67,15 +68,125 @@
           </h2>
 
           <ul class="recipe-ingredients__list list-disc list-inside">
-            <li>2-3 large eggs</li>
-            <li>Salt, to taste</li>
-            <li>Pepper, to taste</li>
-            <li>1 tablespoon of butter or oil</li>
-            <li>
+            <li class="recipe-ingredients__link">2-3 large eggs</li>
+            <li class="recipe-ingredients__link">Salt, to taste</li>
+            <li class="recipe-ingredients__link">Pepper, to taste</li>
+            <li class="recipe-ingredients__link">
+              1 tablespoon of butter or oil
+            </li>
+            <li class="recipe-ingredients__link">
               Optional fillings: cheese, diced vegetables, cooked meats, herbs
             </li>
           </ul>
           <div class="p-4 pb-0 border-b-2 border-b-gray-200"></div>
+        </div>
+
+        <div class="recipe-instructions p-6">
+          <h2
+            class="recipe-instructions__title text-2xl font-bold mb-2 young-font"
+          >
+            Instructions
+          </h2>
+
+          <ol class="recipe-instructions__list list-decimal list-outside pl-6">
+            <li class="recipe-instructions__link p-1">
+              <span class="font-bold">Beat the eggs:</span> In a bowl, beat the
+              eggs with a pinch of salt and pepper until they are well mixed.
+              You can add a tablespoon of water or milk for a fluffier texture.
+            </li>
+            <li class="recipe-instructions__link p-1">
+              <span class="font-bold"> Heat the pan:</span> Place a non-stick
+              frying pan over medium heat and add butter or oil.
+            </li>
+
+            <li class="recipe-instructions__link p-1">
+              <span class="font-bold">Cook the omelette:</span> Once the butter
+              is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+              the eggs evenly coat the surface.
+            </li>
+            <li class="recipe-instructions__link p-1">
+              <span class="font-bold">Add fillings (optional): </span> When the
+              eggs begin to set at the edges but are still slightly runny in the
+              middle, sprinkle your chosen fillings over one half of the
+              omelette.
+            </li>
+            <li class="recipe-instructions__link p-1">
+              <span class="font-bold">Fold and serve:</span> As the omelette
+              continues to cook, carefully lift one edge and fold it over the
+              fillings. Let it cook for another minute, then slide it onto a
+              plate.
+            </li>
+            <li class="recipe-instructions__link p-1">
+              <span class="font-bold">Enjoy:</span> Serve hot, with additional
+              salt and pepper if needed.
+            </li>
+          </ol>
+          <div class="p-4 pb-0 border-b-2 border-b-gray-200"></div>
+        </div>
+        <div class="recipe-nutrition p-6 border-b-2">
+          <h2
+            class="recipe-nutrition__title text-2xl font-bold mb-2 young-font"
+          >
+            Nutrition
+          </h2>
+
+          <table class="w-full text-left">
+            <thead>
+              <tr class="recipe-nutrition__row">
+                <p>
+                  The table below shows nutritional values per serving without
+                  the additional fillings.
+                </p>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="recipe-nutrition__row">
+                <td
+                  class="recipe-nutrition__cell p-4 text-center align-middle border-b"
+                >
+                  Calories
+                </td>
+                <td
+                  class="recipe-nutrition__cell p-4 text-center align-middle border-b"
+                >
+                  277 kcal
+                </td>
+              </tr>
+              <tr class="recipe-nutrition__row">
+                <td
+                  class="recipe-nutrition__cell p-4 text-center align-middle border-b"
+                >
+                  Carbs
+                </td>
+                <td
+                  class="recipe-nutrition__cell p-4 text-center align-middle border-b"
+                >
+                  0g
+                </td>
+              </tr>
+              <tr class="recipe-nutrition__row">
+                <td
+                  class="recipe-nutrition__cell p-4 text-center align-middle border-b"
+                >
+                  Protein
+                </td>
+                <td
+                  class="recipe-nutrition__cell p-4 text-center align-middle border-b"
+                >
+                  20g
+                </td>
+              </tr>
+
+              <tr class="recipe-nutrition__row">
+                <td class="recipe-nutrition__cell p-4 text-center align-middle">
+                  Fat
+                </td>
+                <td class="recipe-nutrition__cell p-4 text-center align-middle">
+                  22g
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
 
