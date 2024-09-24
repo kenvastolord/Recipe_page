@@ -17,7 +17,7 @@ The project helped me improve my skills in frontend development, responsive desi
 
 ## 🖼️ Screenshot
 
-![Recipe Nutrition Table]("./assets/images/simple-recipe.gif")
+![Recipe Nutrition Table](./assets/images/simple-recipe.gif)
 
 ## 🛠️ Technologies Used
 
@@ -42,9 +42,8 @@ The project helped me improve my skills in frontend development, responsive desi
 
 ## 👤 Author
 
-- **Frontend Mentor**: [Your Profile](https://www.frontendmentor.io/profile/yourusername)
-- **GitHub**: [yourusername](https://github.com/yourusername)
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/yourusername)
+- **GitHub**: [yourusername](https://github.com/kenvastolord)
+- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/kenneth-delgado-g)
 
 ## 🛡️ Acknowledgments
 
