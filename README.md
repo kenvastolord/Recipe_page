@@ -17,7 +17,7 @@ The project helped me improve my skills in frontend development, responsive desi
 
 ## 🖼️ Screenshot
 
-![Recipe Nutrition Table](./assets/images/simple-recipe.gif)
+![Recipe Nutrition Table](./assets/images/simple-recipe.png)
 
 ## 🛠️ Technologies Used
 
