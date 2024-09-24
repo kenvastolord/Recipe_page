@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-50: hsl(330, 100%, 98%);
+  --rose-800: hsl(332, 51%, 32%);
+  --stone-150: hsl(30, 18%, 87%);
+}
+
+@layer utilities {
+  .bg-stone-150 {
+    background-color: var(--stone-150);
+  }
+}
+
+.outfit-font {
+  font-family: "Outfit", sans-serif;
+}
+
+.young-font {
+  font-family: "Young Serif", serif;
+}
+
+.recipe-praparation {
+  background-color: var(--rose-50);
+}
+
+.recipe-preparation__title {
+  color: var(--rose-800);
+}
+.recipe-instructions__title,
+.recipe-ingredients__title,
+.recipe-nutrition__title {
+  color: var(--brown-800);
+}
+
+.recipe-instructions__list li::marker {
+  color: var(--brown-800);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.recipe-nutrition__row .recipe-nutrition__cell:nth-child(2n) {
+  color: hsl(14, 45%, 36%);
+}
