@@ -1,5 +1,12 @@
 {
+  "homepage": "https://kenvastolord.github.io/Recipe_page",
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.12"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/styles.css -o ./styles.css --minify",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ."
   }
 }
