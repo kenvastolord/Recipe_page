@@ -741,6 +741,17 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.bg-stone-150 {
+  background-color: var(--stone-150);
+}
+
+:root {
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-50: hsl(330, 100%, 98%);
+  --rose-800: hsl(332, 51%, 32%);
+  --stone-150: hsl(30, 18%, 87%);
+}
+
 .outfit-font {
   font-family: "Outfit", sans-serif;
 }
@@ -750,21 +761,21 @@ video {
 }
 
 .recipe-praparation {
-  background-color: hsl(330, 100%, 98%);
+  background-color: var(--rose-50);
 }
 
 .recipe-preparation__title {
-  color: hsl(332, 51%, 32%);
+  color: var(--rose-800);
 }
 
 .recipe-instructions__title,
 .recipe-ingredients__title,
 .recipe-nutrition__title {
-  color: hsl(14, 45%, 36%);
+  color: var(--brown-800);
 }
 
 .recipe-instructions__list li::marker {
-  color: hsl(14, 45%, 36%);
+  color: var(--brown-800);
   font-size: 1.2em;
   font-weight: bold;
 }
@@ -775,4 +786,30 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:max-w-lg {
+    max-width: 32rem;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+
+  .md\:rounded-3xl {
+    border-radius: 1.5rem;
+  }
+
+  .md\:p-4 {
+    padding: 1rem;
+  }
 }
