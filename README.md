@@ -42,8 +42,8 @@ The project helped me improve my skills in frontend development, responsive desi
 
 ## 👤 Author
 
-- **GitHub**: [yourusername](https://github.com/kenvastolord)
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/kenneth-delgado-g)
+- **GitHub**: [kenvastolord](https://github.com/kenvastolord)
+- **LinkedIn**: [Kenneth Delgado](https://linkedin.com/in/kenneth-delgado-g)
 
 ## 🛡️ Acknowledgments
 
